@@ -1,6 +1,6 @@
-const Marketplace = artifacts.require('./Marketplace.sol')
+const HashPuppies = artifacts.require('./HashPuppies.sol')
 
-contract('Marketplace', (accounts) => {
+contract('HashPuppies', (accounts) => {
   let marketplace
 
   before(async () => {

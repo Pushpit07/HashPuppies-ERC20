@@ -1,5 +1,5 @@
-const Marketplace = artifacts.require("Marketplace");
+const HashPuppies = artifacts.require("HashPuppies");
 
-module.exports = function(deployer) {
-  deployer.deploy(Marketplace);
+module.exports = function (deployer) {
+  deployer.deploy(HashPuppies);
 };

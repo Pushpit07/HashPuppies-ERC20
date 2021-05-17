@@ -1,9 +1,9 @@
 pragma solidity ^0.5.0;
 
-contract Marketplace {
+contract HashPuppies {
     string public name;
 
     constructor() public {
-        name = "Dapp University Marketplace";
+        name = "HashPuppies";
     }
 }
